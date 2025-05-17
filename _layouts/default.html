@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="{{ '/assets/cass/dark-mode.css' | relative-url }}">
+        <link rel="stylesheet" href="{{ '/assets/css/dark-mode.css' | relative-url }}">
     </head>
     <body>
         {% include header.html %}
@@ -11,7 +11,7 @@
         <main class="container">
             {{ content }}
         </main>
-        
+
         <script>
             function toggleTheme() {
                 const current = document.documentElement.getAttribute("data-theme");
