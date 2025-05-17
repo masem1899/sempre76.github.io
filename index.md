@@ -2,6 +2,9 @@
 layout: default
 title: MASEM
 ---
+<button onclick="toggleTheme()">🌓 Toggle Dark Mode</button>
+
+
 Welcome!
 
 Feel free to connect:

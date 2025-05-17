@@ -4,4 +4,12 @@ show_excerpts: true
 header_pages:
   - index.md
   - pysty.md
-  - about.md 
+  - about.md
+
+# Custom CSS
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      css: "/assets/css/dark-mode.css"
