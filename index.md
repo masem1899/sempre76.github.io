@@ -2,10 +2,10 @@
 layout: default
 title: MASEM
 ---
-<button onclick="toggleTheme()">🌓 Toggle Dark Mode</button>
+
 
 <script>
-    
+
 </script>
 
 Welcome!
