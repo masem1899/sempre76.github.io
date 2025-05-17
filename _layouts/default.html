@@ -1,14 +1,26 @@
-<script>
-    function toggleTheme() {
-        const current = document.documentElement.getAttribute("data-theme");
-        const next = current === "dark" ? "light" : "dark";
-        document.documentElement.setAttribute("data-theme", next);
-        localStorage.setItem("theme", next);
-    }
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="{{ '/assets/cass/dark-mode.css' | relative-url }}">
+    </head>
+    <body>
+        {% include header.html %}
 
-    // Load saved theme
-    (function() {
-        const saved = localStorage.getItem("theme") || "dark";
-        document.documentElement.setAttribute("data-theme", saved);
-    })();
-</script>
+        <script>
+            function toggleTheme() {
+                const current = document.documentElement.getAttribute("data-theme");
+                const next = current === "dark" ? "light" : "dark";
+                document.documentElement.setAttribute("data-theme", next);
+                localStorage.setItem("theme", next);
+            }
+
+            // Load saved theme
+            (function() {
+                const saved = localStorage.getItem("theme") || "dark";
+                document.documentElement.setAttribute("data-theme", saved);
+            })();
+        </script>
+    </body>
+</html>
