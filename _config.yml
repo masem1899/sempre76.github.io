@@ -1,5 +1,7 @@
 title: MASEM Project Space
 theme: minima
+plugins:
+  - jekyll-seo-tag
 show_excerpts: true
 header_pages:
   - index.md
