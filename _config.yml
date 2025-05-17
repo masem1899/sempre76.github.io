@@ -3,4 +3,5 @@ theme: minima
 show_excerpts: true
 header_pages:
   - index.md
+  - pysty.md
   - about.md 
