@@ -1,2 +1,6 @@
 title: MASEM Project Space
 theme: minima
+show_excerpts: true
+header_pages:
+  - index.md
+  - about.md 
