@@ -1,11 +1,11 @@
 :root {
-    --bg: #ffffff
-    --text: #000000
+    --bg: #fff;
+    --text: #000;
 }
 
 [data-theme="dark"] {
-    --bg: #121212
-    --text: #eeeeee
+    --bg: #121;
+    --text: #eee;
 }
 
 body {
