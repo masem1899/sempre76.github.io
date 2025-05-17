@@ -3,13 +3,11 @@
         <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape}}</a>
 
         <nav class="site-nav">
-            {% for page in site.pages %}
-                {% if page.title and page.header != false %}
-                    <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title }}</a>
-                {% endif %}
+            {% for page in site.header_pages %}
+                <a class="page-link" href="{{ page | relative-url }}">{{ site.pages | where: "path", page | first | dig:"title" }}</a>
             {% endfor %}
             <!-- Dark Mode Toggle Button -->
-            <button onclick="toggleTheme()">🌓 Toggle Dark Mode</button>
+            <button id="darkModeToggle" onclick="toggleTheme()"></button>
         </nav>
     </div>
 </header>
