@@ -8,6 +8,21 @@
     --text: #eee;
 }
 
+[data-theme="dark"] .site-tile,
+[data-theme="dark"] .site-nav a,
+[data-theme="dark"] .site-nav {
+    color: var(--text)
+}
+
+[data-theme="dark"] .site-header {
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #444;
+}
+
+[data-theme="dark"] .page-link:hover {
+    color: #ddd;
+}
+
 body {
     background-color: var(--bg);
     color: var(--text);
