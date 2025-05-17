@@ -28,7 +28,7 @@ I am a developer and software expert with experience in (in alphabetical order):
 
 Tools i am using:
 - [Android Studio](https://developer.android.com/studio)
-- [Eclipse IDE](https://developer.android.com/studio)
+- [Eclipse IDE](https://eclipse.org)
 - [Microsoft Visual Studio](https://visualstudio.microsoft.com/en/)
 - [Notepad++](https://notepad-plus-plus.org/)
 - [Visual Studio Code](https://code.visualstudio.com/)
