@@ -6,15 +6,18 @@ title: About
 
 I am a developer and software expert with experience in (in alphabetical order):
 
+- [AngularJS](https://angularjs.org/)
 - [Azure](https://azure.microsoft.com/en-us)
 - [C#](https://learn.microsoft.com/en-us/dotnet/csharp/)
 - [CSS](https://www.w3schools.com/css/)
 - [HTML](https://www.w3schools.com/html/)
 - [Java](https://www.java.com)
 - [Javascript](https://developer.mozilla.org/en/docs/Web/JavaScript)
+- [libGDX](https://libgdx.com/)
 - [MySQL](https://www.mysql.com/en/)
 - [Node.js](https://nodejs.org)
 - [Perl](https://www.perl.org)
+- [PHP](https://www.php.net)
 - [Plotly Dash](https://dash.plotly.com/)
 - [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi)
 - [PowerPlatform](https://www.microsoft.com/en-us/power-platform) (PowerApps, PowerAutomate, Dataverse, Copilot Studio)
