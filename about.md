@@ -27,6 +27,8 @@ I am a developer and software expert with experience in (in alphabetical order):
 - [Visual Basic](https://learn.microsoft.com/en-us/dotnet/visual-basic/)
 
 Tools i am using:
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Notepad++](https://notepad-plus-plus.org/)
+- [Android Studio](https://developer.android.com/studio)
+- [Eclipse IDE](https://developer.android.com/studio)
 - [Microsoft Visual Studio](https://visualstudio.microsoft.com/en/)
+- [Notepad++](https://notepad-plus-plus.org/)
+- [Visual Studio Code](https://code.visualstudio.com/)

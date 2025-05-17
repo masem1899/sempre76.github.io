@@ -28,6 +28,8 @@
             // Load saved theme
             (function() {
                 const saved = localStorage.getItem("theme") || "dark";
+                const button = document.querySelector('#darkModeToggle')
+                button.textContent = saved === "dark" ? "🌞" : "🌙"
                 document.documentElement.setAttribute("data-theme", saved);
             })();
         </script>
