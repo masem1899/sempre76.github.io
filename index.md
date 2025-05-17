@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MASEM Project Space
+title: MASEM
 ---
 Welcome!
 

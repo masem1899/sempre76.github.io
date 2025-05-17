@@ -1,5 +1,5 @@
 ---
 layout: default
-title: PySty - Python Styling Library
+title: PySty
 ---
-# PySty - PySty Styling Library
+# PySty - Python Styling Library
