@@ -8,6 +8,10 @@
     <body>
         {% include header.html %}
 
+        <main class="container">
+            {{ content }}
+        </main>
+        
         <script>
             function toggleTheme() {
                 const current = document.documentElement.getAttribute("data-theme");
