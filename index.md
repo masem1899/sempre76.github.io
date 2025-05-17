@@ -3,11 +3,6 @@ layout: default
 title: MASEM
 ---
 
-
-<script>
-
-</script>
-
 Welcome!
 
 Feel free to connect:
