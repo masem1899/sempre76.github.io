@@ -3,7 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="{{ '/assets/css/dark-mode.css' | relative-url }}">
+         <!-- Load minima's style -->
+        <link rel="stylesheet" href="{{ '/assets/mains.css' | relative_url }}">
+        <!-- Load your dark mode overrides -->
+        <link rel="stylesheet" href="{{ '/assets/css/dark-mode.css' | relative_url }}">
     </head>
     <body>
         {% include header.html %}
