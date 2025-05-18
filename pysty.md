@@ -5,8 +5,8 @@ title: PySty
 ## PySty - Python Styling Library
 ### Enrich your Python Component Library with styles injected via decorators.
 
-#### Easy to use
-<pre>
+#### Easy to use:
+<pre>```python
 from abc import ABC
 from pysty import pysty
 
@@ -16,9 +16,9 @@ from pysty import pysty
 class BaseLabel(ABC) {
     ...
 }
-</pre>
+```</pre>
 
-#### Features
+#### Features:
 - Easy to integrate
 - Supports multiple style themes
 - No dependencies
