@@ -32,6 +32,16 @@
                 button.textContent = newTheme === "dark" ? "🌞" : "🌙"
             }
 
+            function copyCode(button) {
+                const code = button.nextElementSibling.innerText;
+                navigator.clipboard.writeText(code).then(() => {
+                    button,innerText = "✅ Copied!";
+                    setTimeout(() => {
+                        button.innerText = "📋 Copy";
+                    }, 1500);
+                });
+            }
+
             // Load saved theme
             (function() {
                 const saved = localStorage.getItem("theme") || "dark";
