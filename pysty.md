@@ -9,7 +9,8 @@ title: PySty
 <div class="code-container">
     <pre>
         <code class="language-python">
-            
+            def main():
+                print('hallo')
         </code>
     </pre>
     <button class="copy-btn" onclick="copyCode(this)">Copy</button>
