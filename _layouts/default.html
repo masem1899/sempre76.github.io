@@ -9,6 +9,11 @@
         <link rel="stylesheet" href="{{ '/assets/css/dark-mode.css' | relative_url }}">
         <!-- classic favicon -->
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <!-- optional for retina icons -->
+        <link rel="icon" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" sizes="16x16" href="/favicon-16x16.png">
+        <!-- jekyll seo -->
+        {% seo %}
     </head>
     <body>
         {% include header.html %}
