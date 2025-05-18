@@ -6,17 +6,14 @@ title: PySty
 ### Enrich your Python Component Library with styles injected via decorators.
 
 #### Easy to use:
-<pre>```python
-from abc import ABC
-from pysty import pysty
-
-@pysty({
-    'text-color':DefaultTheme['tc_danger']
-})
-class BaseLabel(ABC) {
-    ...
-}
-```</pre>
+<div class="code-container">
+    <pre>
+        <code class="language-python">
+            
+        </code>
+    </pre>
+    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+</div>
 
 #### Features:
 - Easy to integrate
