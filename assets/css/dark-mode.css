@@ -26,6 +26,10 @@
     color: #ddd;
 }
 
+[data-thene="dark"] .page-link:active {
+    color: var(--text-brown);
+}
+
 [data-theme="dark"] .h1,
 [data-theme="dark"] .h2,
 [data-theme="dark"] .h3 {
