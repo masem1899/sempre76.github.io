@@ -10,6 +10,7 @@ I am a developer and software expert with experience in (in alphabetical order):
 - [Azure](https://azure.microsoft.com/en-us)
 - [C#](https://learn.microsoft.com/en-us/dotnet/csharp/)
 - [CSS](https://www.w3schools.com/css/)
+- [Dojo Toolkit](https://dojotoolkit.org/)
 - [HTML](https://www.w3schools.com/html/)
 - [Java](https://www.java.com)
 - [Javascript](https://developer.mozilla.org/en/docs/Web/JavaScript)
