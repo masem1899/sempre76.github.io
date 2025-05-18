@@ -53,3 +53,10 @@ body {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
+
+.pysty-dev-img {
+    width: 200px;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
+}
