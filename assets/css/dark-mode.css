@@ -1,11 +1,14 @@
 :root {
     --bg: #fff;
     --text: #222;
+    --text-bue: #9CDCFF;
+    --text-brown: #AC4C1F;
+    --text-yellow: #FFC914;
 }
 
 [data-theme="dark"] {
     --bg: #121;
-    --text: #eee;
+    --text: var(--text-bue);
 }
 
 [data-theme="dark"] .site-tile,
@@ -21,6 +24,18 @@
 
 [data-theme="dark"] .page-link:hover {
     color: #ddd;
+}
+
+[data-theme="dark"] .h1,
+[data-theme="dark"] .h2,
+[data-theme="dark"] .h3 {
+    color: var(--text-brown)
+}
+
+[data-theme="dark"] .h3,
+[data-theme="dark"] .h4,
+[data-theme="dark"] .h5 {
+    color: var(--text-yellow)
 }
 
 body {
