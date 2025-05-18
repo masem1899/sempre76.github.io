@@ -9,3 +9,4 @@ title: PySty
 - Easy to integrate
 - Supports multiple style themes
 - No dependencies
+- One decorator and some helper functions
