@@ -31,7 +31,6 @@ title: About
         gap: 10px;
         width: 250px;
         padding: 5px;
-        border: 1px solid #000;
     }
     .tints_and_shades div {
         display: flex;
@@ -135,7 +134,8 @@ title: About
             _controls['hex'].value = hex;
 
             for (let i = 1; i <= 9; i++) {
-                setBgColor('ts'+i, tintColor(r, g, b, i * 10));
+                setBgColor('t'+i, tintColor(r, g, b, i * 10));
+                setBgColor('s'+i, shadeColor(r, g, b, i * 10));
             }
         }
 
