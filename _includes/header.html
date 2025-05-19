@@ -1,5 +1,6 @@
 <header class="site-header" role="banner">
     <div class="wrapper">
+        <img src="{{ '/assets/images/pysty-transparent.png' | relative_url }}" alt="PySty" class="pysty-dev-img">
         <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape}}</a>
 
         <nav class="site-nav">
@@ -16,8 +17,5 @@
             <!-- Dark Mode Toggle Button -->
             <button id="darkModeToggle" onclick="toggleTheme()"></button>
         </nav>
-    </div>
-    <div class="header-log">
-        <img src="{{ '/assets/images/pysty-transparent.png' | relative_url }}" alt="PySty" class="pysty-dev-img">
     </div>
 </header>
