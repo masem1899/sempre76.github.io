@@ -81,7 +81,9 @@ title: About
         }
 
         function rgb_change(r, g, b) {
-            _controls['hex'].value = rgb2hex(r, g, b)
+            const hex = rgb2hex(r, g, b);
+            _controls['hex'].value = hex;
+            document.getElementById('colors-editor').style.backgroundColor = hex;
         }
 
         function rgb2hex(r, g, b) {
