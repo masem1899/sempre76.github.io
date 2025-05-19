@@ -31,6 +31,7 @@ title: About
         gap: 10px;
         width: 250px;
         padding: 5px;
+        border: 1px solid #000;
     }
     .tints_and_shades div {
         display: flex;
