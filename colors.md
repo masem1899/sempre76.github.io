@@ -11,6 +11,7 @@ title: About
         grid-template-rows: auto auto auto;
         gap: 10px;
         width: 200px;
+        padding: 5px;
     }
     .control {
         display: flex;
