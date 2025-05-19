@@ -48,13 +48,14 @@ title: About
         control_ids.forEach((id) => {
             registerControl(id)
         });
+
         function registerControl(id) {
             const control = document.getElementById(id);
             control.addEventListener('keyup', keyListener);
         }
 
         function keyListener(e) {
-            switch(e.sourceElement.id) {
+            switch(e.srcElement.id) {
                 case 'rgb_r':
                 case 'rgb_g':
                 case 'rgb_b':
