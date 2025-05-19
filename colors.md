@@ -41,6 +41,7 @@ title: About
         rgb_r.addEventListener('keydown', logKey);
 
         function logKey(e) {
+            console.log(e);
             log.textContent += ` ${e.code}`;
         }
     })();
