@@ -35,7 +35,7 @@ title: About
     .tints_and_shades div {
         display: flex;
         flex-direction: column;
-        padding: 20px;
+        padding: 10px;
     }
 
 </style>
