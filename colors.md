@@ -63,7 +63,7 @@ title: About
                 case 'rgb_r':
                 case 'rgb_g':
                 case 'rgb_b':
-                    rgb(_controls['rgb_r'].value, _controls['rgb_g'].value, _controls['rgb_b'].value);
+                    rgb_change(_controls['rgb_r'].value, _controls['rgb_g'].value, _controls['rgb_b'].value);
                     break;
             }
 
