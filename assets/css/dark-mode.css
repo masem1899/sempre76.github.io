@@ -112,3 +112,10 @@ pre {
     display: flex;
     align-items: center;
 }
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
