@@ -45,6 +45,7 @@ title: About
 </style>
 
 <div class="colors-page">
+    <button id="randomRGB">Random</button>
     <div class="colors-editor" id="colors-editor">
         <div class="control">Hex:</div>
         <div class="control hex">
@@ -145,6 +146,7 @@ title: About
             const e = document.getElementById(id);
             if(e) {
                 e.style.backgroundColor = color;
+                e.textContent = color;
             }
         }
 
@@ -192,6 +194,22 @@ title: About
             );
         }
 
+        function randomRGB() {
+            return {
+                r: Math.floor(Math.random() * 255),
+                b: Math.floor(Math.random() * 255),
+                g: Math.floor(Math.random() * 255)
+            }
+        }
+
+        function e(id) {
+            return document.getElementyById(id);
+        }
+
+        e('randomRGB').onclick = () => {
+            const {r,g,b} = randomRGB();
+            rgb_change(r, g, b);
+        };
         rgb_change(_controls['rgb_r'].value, _controls['rgb_g'].value, _controls['rgb_b'].value);
     })();
 </script>
