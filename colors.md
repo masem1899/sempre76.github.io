@@ -16,6 +16,9 @@ title: About
         display: flex;
         flex-direction: column;
     }
+    .hex {
+        grid-column: span 2;
+    }
 </style>
 
 <div class="colors-page">
@@ -28,6 +31,9 @@ title: About
         </div>
         <div class="control">
             <input maxlength="3" id="rgb_b" placeholder="B" type="number">
+        </div>
+        <div class="control hex">
+            <input maxlength="3" id="hex" placeholder="B" type="number">
         </div>
     </div>
 </div>
@@ -42,7 +48,7 @@ title: About
         control_ids.forEach((id) => {
             registerControl(id)
         });
-        function registerControl(ids) {
+        function registerControl(id) {
             const control = document.getElementById(id);
             _controls[name] = control;
             control.addEventListener('keyup', keyListener);
