@@ -70,7 +70,7 @@ title: About
             <input maxlength="3" id="hsv_v" placeholder="255" pattern="\d{1,3}">
         </div>
     </div>
-
+    <h3>Tints and Shades</h3>
     <div class="tints_and_shades">
         <div id="ts1"></div>
         <div id="ts2"></div>
