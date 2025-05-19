@@ -71,10 +71,16 @@ title: About
     </div>
 
     <div class="tints_and_shades">
-        <div >
+        <div id="ts1"></div>
+        <div id="ts2"></div>
+        <div id="ts3"></div>
+        <div id="ts4"></div>
+        <div id="ts5"></div>
+        <div id="ts6"></div>
+        <div id="ts7"></div>
+        <div id="ts8"></div>
+        <div id="ts9"></div>
     </div>
-</div>
-<div id="output">
 </div>
 
 <script language="javascript">
