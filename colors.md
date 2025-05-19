@@ -203,7 +203,7 @@ title: About
         }
 
         function e(id) {
-            return document.getElementyById(id);
+            return document.getElementById(id);
         }
 
         e('randomRGB').onclick = () => {
