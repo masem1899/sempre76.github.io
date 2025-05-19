@@ -8,13 +8,17 @@ title: About
     .colors-editor {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto auto;
+        grid-template-rows: auto auto auto;
         gap: 10px;
         width: 200px;
     }
     .control {
         display: flex;
         flex-direction: column;
+    }
+    .control input {
+        width: 100%;
+        box-sizing: border-box;
     }
     .hex {
         grid-column: span 2;
