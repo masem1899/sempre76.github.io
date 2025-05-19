@@ -113,6 +113,10 @@ title: About
         }
 
         function rgb_change(r, g, b) {
+            r = !r ? 0 : Math.max(0, Math.min(255, r));
+            g = !g ? 0 : Math.max(0, Math.min(255, g));
+            b = !b ? 0 : Math.max(0, Math.min(255, b));
+            
             const hex = rgb2hex(r, g, b);
             const editor = document.getElementById('colors-editor');
             editor.style.backgroundColor = hex;
@@ -129,9 +133,6 @@ title: About
         }
 
         function rgb2hex(r, g, b) {
-            r = !r ? 0 : Math.max(0, Math.min(255, r));
-            g = !g ? 0 : Math.max(0, Math.min(255, g));
-            b = !b ? 0 : Math.max(0, Math.min(255, b));
             const hex = '#' + [r, g, b]
                 .map(v => v.toString(16).padStart(2, '0'))
                 .join('');
