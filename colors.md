@@ -122,10 +122,10 @@ title: About
             document.getElementById('ts3').style.backgroundColor = tintColor(r, g, b, 40);
             document.getElementById('ts4').style.backgroundColor = tintColor(r, g, b, 20);
             document.getElementById('ts5').style.backgroundColor = hex;
-            document.getElementById('ts1').style.backgroundColor = shadeColor(r, g, b, 20);
-            document.getElementById('ts2').style.backgroundColor = shadeColor(r, g, b, 40);
-            document.getElementById('ts3').style.backgroundColor = shadeColor(r, g, b, 60);
-            document.getElementById('ts4').style.backgroundColor = shadeColor(r, g, b, 80);
+            document.getElementById('ts6').style.backgroundColor = shadeColor(r, g, b, 20);
+            document.getElementById('ts7').style.backgroundColor = shadeColor(r, g, b, 40);
+            document.getElementById('ts8').style.backgroundColor = shadeColor(r, g, b, 60);
+            document.getElementById('ts9').style.backgroundColor = shadeColor(r, g, b, 80);
         }
 
         function rgb2hex(r, g, b) {
