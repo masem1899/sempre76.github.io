@@ -107,3 +107,8 @@ pre {
     overflow-x: auto;
     font-family: Consolas, monaco, monospace;
 }
+
+.brand-group {
+    display: flex;
+    align-items: center;
+}

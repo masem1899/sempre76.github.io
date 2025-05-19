@@ -1,10 +1,11 @@
 <header class="site-header" role="banner">
     <div class="wrapper">
-        <a href="{{ '/' | relative_url}}">
-            <img src="{{ '/assets/images/pysty-transparent.png' | relative_url }}" alt="PySty" class="pysty-dev-brand-img">
-        </a>
-        <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape}}</a>
-
+        <div class="brand-group">
+            <a href="{{ '/' | relative_url}}">
+                <img src="{{ '/assets/images/pysty-transparent.png' | relative_url }}" alt="PySty" class="pysty-dev-brand-img">
+            </a>
+            <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape}}</a>
+        </div>
         <nav class="site-nav">
             <!--
             {% for page in site.pages %}
