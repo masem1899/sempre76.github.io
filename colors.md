@@ -4,11 +4,31 @@ title: About
 ---
 # Color Picker
 
+<style>
+    .color-editor {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 10px;
+        width: 300px;
+    }
+    .control {
+        display: flex;
+        flex-direction: column;
+    }
+</style>
+
 <div class="colors-page">
     <div class="colors-editor">
-        <input maxlength="3" id="rgb_r" placeholder="R" type="number" onclick="rgb_changed();">
-        <input maxlength="3" id="rgb_g" placeholder="G" type="number" onclick="rgb_changed();">
-        <input maxlength="3" id="rgb_b" placeholder="B" type="number" onclick="rgb_changed();">
+        <div class="control">
+            <input maxlength="3" id="rgb_r" placeholder="R" type="number" onchange="rgb_changed();">
+        </div>
+        <div class="control">
+            <input maxlength="3" id="rgb_g" placeholder="G" type="number" onchange="rgb_changed();">
+        </div>
+        <div class="control">
+            <input maxlength="3" id="rgb_b" placeholder="B" type="number" onchange="rgb_changed();">
+        </div>
     </div>
 </div>
 
