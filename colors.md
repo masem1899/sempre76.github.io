@@ -24,16 +24,16 @@ title: About
 <div class="colors-page">
     <div class="colors-editor">
         <div class="control">
-            <input maxlength="3" id="rgb_r" placeholder="R" type="number">
+            <input maxlength="3" id="rgb_r" placeholder="255" pattern="\d{1,3}">
         </div>
         <div class="control">
-            <input maxlength="3" id="rgb_g" placeholder="G" type="number">
+            <input maxlength="3" id="rgb_g" placeholder="255" pattern="\d{1,3}>
         </div>
         <div class="control">
-            <input maxlength="3" id="rgb_b" placeholder="B" type="number">
+            <input maxlength="3" id="rgb_b" placeholder="255" pattern="\d{1,3}>
         </div>
         <div class="control hex">
-            <input maxlength="3" id="hex" placeholder="B" type="number">
+            <input maxlength="7" id="hex" placeholder="#000000" pattern="#?[0-9A-Fa-f]{1,6}">
         </div>
     </div>
 </div>
