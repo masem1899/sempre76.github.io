@@ -6,8 +6,14 @@ title: About
 
 <div class="colors-page">
     <div class="colors-editor">
-        <input size="3" maxlength="3" id="rgb_r" placeholder="R" type="number">
-        <input size="3" maxlength="3" id="rgb_g" placeholder="G">
-        <input size="3" maxlength="3" id="rgb_b" placeholder="B">
+        <input maxlength="3" id="rgb_r" placeholder="R" type="number" onclick="rgb_changed();">
+        <input maxlength="3" id="rgb_g" placeholder="G" type="number" onclick="rgb_changed();">
+        <input maxlength="3" id="rgb_b" placeholder="B" type="number" onclick="rgb_changed();">
     </div>
 </div>
+
+<script language="javascript">
+    function rgb_changed() {
+        console.log('cange')
+    }
+</script>
