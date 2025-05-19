@@ -39,7 +39,7 @@ title: About
         const log = document.getElementById('output');
         
         const control_ids = ['rgb_r', 'rgb_g', 'rgb_b'];
-        control_ids.foreach((id) => {
+        control_ids.forEach((id) => {
             registerControl(id)
         });
         function registerControl(ids) {
