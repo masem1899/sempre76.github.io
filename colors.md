@@ -26,8 +26,8 @@ title: About
     }
     .tints_and_shades {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto;
         gap: 10px;
         width: 250px;
         padding: 5px;
@@ -72,14 +72,26 @@ title: About
     </div>
     <h3>Tints and Shades</h3>
     <div class="tints_and_shades">
-        <div id="ts1"></div>
-        <div id="ts2"></div>
-        <div id="ts3"></div>
-        <div id="ts4"></div>
-        <div id="ts5"></div>
-        <div id="ts6"></div>
-        <div id="ts7"></div>
-        <div id="ts8"></div>
+        <div id="t1"></div>
+        <div id="t2"></div>
+        <div id="t3"></div>
+        <div id="t4"></div>
+        <div id="t5"></div>
+        <div id="t6"></div>
+        <div id="t7"></div>
+        <div id="t8"></div>
+        <div id="t9"></div>
+    </div>
+    <div class="tints_and_shades">
+        <div id="s1"></div>
+        <div id="s2"></div>
+        <div id="s3"></div>
+        <div id="s4"></div>
+        <div id="s5"></div>
+        <div id="s6"></div>
+        <div id="s7"></div>
+        <div id="s8"></div>
+        <div id="s9"></div>
     </div>
 </div>
 
@@ -121,14 +133,17 @@ title: About
             const editor = document.getElementById('colors-editor');
             editor.style.backgroundColor = hex;
             _controls['hex'].value = hex;
-            document.getElementById('ts1').style.backgroundColor = tintColor(r, g, b, 80);
-            document.getElementById('ts2').style.backgroundColor = tintColor(r, g, b, 60);
-            document.getElementById('ts3').style.backgroundColor = tintColor(r, g, b, 40);
-            document.getElementById('ts4').style.backgroundColor = tintColor(r, g, b, 20);
-            document.getElementById('ts5').style.backgroundColor = shadeColor(r, g, b, 20);
-            document.getElementById('ts6').style.backgroundColor = shadeColor(r, g, b, 40);
-            document.getElementById('ts7').style.backgroundColor = shadeColor(r, g, b, 60);
-            document.getElementById('ts8').style.backgroundColor = shadeColor(r, g, b, 80);
+
+            for (let i = 1; i <= 9; i++) {
+                setBgColor('ts'+i, tintColor(r, g, b, i * 10));
+            }
+        }
+
+        function setBgColor(id, color) {
+            const e = document.getElementById('ts8');
+            if(e) {
+                e.style.backgroundColor = color;
+            }
         }
 
         function rgb2hex(r, g, b) {
