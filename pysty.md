@@ -3,7 +3,7 @@ layout: default
 title: PySty
 ---
 ## PySty - Python Styling Library
-### Enrich your Python Component Library with styles injected via decorators.
+Enrich your Python Component Library with styles injected via decorators.
 
 #### Easy to use:
 <div class="code-container">
