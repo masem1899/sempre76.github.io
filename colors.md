@@ -10,7 +10,7 @@ title: About
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: auto auto auto auto;
         gap: 5px;
-        width: 300px;
+        width: 500px;
         padding: 15px;
         border: 1px solid #fff;
         border-radius: 3px;
@@ -31,7 +31,7 @@ title: About
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: auto auto auto auto auto auto auto auto auto;
         gap: 10px;
-        width: 250px;
+        width: 500px;
         padding: 5px;
     }
     .tints_and_shades div {
