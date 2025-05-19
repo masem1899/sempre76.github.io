@@ -122,6 +122,10 @@ title: About
             document.getElementById('ts3').style.backgroundColor = tintColor(r, g, b, 40);
             document.getElementById('ts4').style.backgroundColor = tintColor(r, g, b, 20);
             document.getElementById('ts5').style.backgroundColor = hex;
+            document.getElementById('ts1').style.backgroundColor = shadeColor(r, g, b, 20);
+            document.getElementById('ts2').style.backgroundColor = shadeColor(r, g, b, 40);
+            document.getElementById('ts3').style.backgroundColor = shadeColor(r, g, b, 60);
+            document.getElementById('ts4').style.backgroundColor = shadeColor(r, g, b, 80);
         }
 
         function rgb2hex(r, g, b) {
@@ -159,6 +163,15 @@ title: About
                 r + (255 - r) * p,
                 g + (255 - g) * p,
                 b + (255 - b) * p
+            );
+        }
+
+        function shadeColor(r, g, b, pct) {
+            const p = pct / 100;
+            return rgb2hex(
+                r * (1 - p),
+                g * (1 - p),
+                b * (1 - p)
             );
         }
     })();
