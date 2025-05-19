@@ -174,5 +174,7 @@ title: About
                 Math.round(b * (1 - p))
             );
         }
+
+        rgb_change(_controls['rgb_r'].value, _controls['rgb_g'].value, _controls['rgb_b'].value);
     })();
 </script>
