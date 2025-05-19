@@ -52,7 +52,7 @@ title: About
 
         function registerControl(id) {
             const control = document.getElementById(id);
-            _constrols[id] = control;
+            _controls[id] = control;
             control.addEventListener('keyup', keyListener);
         }
 
