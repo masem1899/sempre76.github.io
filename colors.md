@@ -35,7 +35,7 @@ title: About
 </div>
 
 <script language="javascript">
-    (funtion() {
+    (function() {
         const log = document.getElementById('output');
         const rgb_r = document.getElementById('rgb_r');
         rgb_r.addEventListener('keydown', logKey);
