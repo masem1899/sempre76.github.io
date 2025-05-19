@@ -70,7 +70,7 @@ title: About
         }
 
         function rgb_change(r, g, b) {
-            _controls['hex'].value = reg2hex(r, g, b)
+            _controls['hex'].value = rgb2hex(r, g, b)
         }
 
         function rgb2hex(r, g, b) {
