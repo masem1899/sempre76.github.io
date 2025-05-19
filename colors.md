@@ -9,7 +9,7 @@ title: About
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: auto auto auto auto;
-        gap: 10px;
+        gap: 5px;
         width: 300px;
         padding: 15px;
     }
@@ -26,8 +26,8 @@ title: About
     }
     .tints_and_shades {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto auto auto auto auto auto auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
         gap: 10px;
         width: 250px;
         padding: 5px;
@@ -79,7 +79,6 @@ title: About
         <div id="ts6"></div>
         <div id="ts7"></div>
         <div id="ts8"></div>
-        <div id="ts9"></div>
     </div>
 </div>
 
@@ -125,11 +124,10 @@ title: About
             document.getElementById('ts2').style.backgroundColor = tintColor(r, g, b, 60);
             document.getElementById('ts3').style.backgroundColor = tintColor(r, g, b, 40);
             document.getElementById('ts4').style.backgroundColor = tintColor(r, g, b, 20);
-            document.getElementById('ts5').style.backgroundColor = hex;
-            document.getElementById('ts6').style.backgroundColor = shadeColor(r, g, b, 20);
-            document.getElementById('ts7').style.backgroundColor = shadeColor(r, g, b, 40);
-            document.getElementById('ts8').style.backgroundColor = shadeColor(r, g, b, 60);
-            document.getElementById('ts9').style.backgroundColor = shadeColor(r, g, b, 80);
+            document.getElementById('ts5').style.backgroundColor = shadeColor(r, g, b, 20);
+            document.getElementById('ts6').style.backgroundColor = shadeColor(r, g, b, 40);
+            document.getElementById('ts7').style.backgroundColor = shadeColor(r, g, b, 60);
+            document.getElementById('ts8').style.backgroundColor = shadeColor(r, g, b, 80);
         }
 
         function rgb2hex(r, g, b) {
