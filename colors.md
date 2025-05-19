@@ -7,11 +7,11 @@ title: About
 <style>
     .colors-editor {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
         gap: 10px;
-        width: 200px;
-        padding: 5px;
+        width: 250px;
+        padding: 15px;
     }
     .control {
         display: flex;
@@ -24,15 +24,31 @@ title: About
     .hex {
         grid-column: span 1;
     }
+    .tints_and_shades {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto;
+        gap: 10px;
+        width: 250px;
+        padding: 5px;
+    }
+    .tints_and_shades div {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
 </style>
 
 <div class="colors-page">
     <div class="colors-editor" id="colors-editor">
+        <div class="control">Hex:</div>
         <div class="control hex">
-            <input maxlength="7" id="hex" placeholder="#000000" pattern="#?[0-9A-Fa-f]{1,6}">
+            <input maxlength="7" id="hex" autofocus placeholder="#000000" pattern="#?[0-9A-Fa-f]{1,6}">
         </div>
         <div></div>
         <div></div>
+        <div class="control">RGB:</div>
         <div class="control">
             <input maxlength="3" id="rgb_r" placeholder="255" pattern="\d{1,3}">
         </div>
@@ -42,6 +58,7 @@ title: About
         <div class="control">
             <input maxlength="3" id="rgb_b" placeholder="255" pattern="\d{1,3}">
         </div>
+        <div class="control">HSV:</div>
         <div class="control">
             <input maxlength="3" id="hsv_h" placeholder="255" pattern="\d{1,3}">
         </div>
@@ -51,6 +68,10 @@ title: About
         <div class="control">
             <input maxlength="3" id="hsv_v" placeholder="255" pattern="\d{1,3}">
         </div>
+    </div>
+
+    <div class="tints_and_shades">
+        <div >
     </div>
 </div>
 <div id="output">
