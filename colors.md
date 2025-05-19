@@ -10,7 +10,7 @@ title: About
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: auto auto auto auto;
         gap: 10px;
-        width: 250px;
+        width: 300px;
         padding: 15px;
     }
     .control {
@@ -117,7 +117,11 @@ title: About
             const editor = document.getElementById('colors-editor');
             editor.style.backgroundColor = hex;
             _controls['hex'].value = hex;
-            
+            document.getElementById('ts1').style.backgroundColor = tintColor(r, g, b, 80);
+            document.getElementById('ts2').style.backgroundColor = tintColor(r, g, b, 80);
+            document.getElementById('ts3').style.backgroundColor = tintColor(r, g, b, 80);
+            document.getElementById('ts4').style.backgroundColor = tintColor(r, g, b, 80);
+            document.getElementById('ts5').style.backgroundColor = hex;
         }
 
         function rgb2hex(r, g, b) {
@@ -130,10 +134,32 @@ title: About
             return hex.toUpperCase();
         }
 
+        function hex2rgb(hex) {
+            hex = hex.replace(/^#/, '');
+            if(hex.length === 3) {
+                hex = hex.split('').map(c = c + c).join('');
+            }
+            const bigint = parseInt(hey, 16);
+            return {
+                r: (bigint >> 16) & 255,
+                g: (bigint >> 8) & 255,
+                b: bigint & 255
+            };
+        }
+
         function hsv2rgb(h, s, v) {
             h = !h ? 0 : h;
             s = !s ? 0 : s / 100;
             v = !v ? 0 : v / 100;
+        }
+
+        function tintColor(r, g, b, pct) {
+            const p = pct / 100;
+            return rgb2hex(
+                r + (255 - r) * p,
+                g + (255 - g) * p,
+                b + (255 - b) * p
+            );
         }
     })();
 </script>
