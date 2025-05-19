@@ -44,7 +44,7 @@ title: About
     (function() {
         const log = document.getElementById('output');
         
-        const _conrols = {}
+        let _controls = {}
         const control_ids = ['rgb_r', 'rgb_g', 'rgb_b', 'hex'];
         control_ids.forEach((id) => {
             registerControl(id)
