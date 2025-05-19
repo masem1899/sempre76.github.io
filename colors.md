@@ -118,9 +118,9 @@ title: About
             editor.style.backgroundColor = hex;
             _controls['hex'].value = hex;
             document.getElementById('ts1').style.backgroundColor = tintColor(r, g, b, 80);
-            document.getElementById('ts2').style.backgroundColor = tintColor(r, g, b, 80);
-            document.getElementById('ts3').style.backgroundColor = tintColor(r, g, b, 80);
-            document.getElementById('ts4').style.backgroundColor = tintColor(r, g, b, 80);
+            document.getElementById('ts2').style.backgroundColor = tintColor(r, g, b, 60);
+            document.getElementById('ts3').style.backgroundColor = tintColor(r, g, b, 40);
+            document.getElementById('ts4').style.backgroundColor = tintColor(r, g, b, 20);
             document.getElementById('ts5').style.backgroundColor = hex;
         }
 
