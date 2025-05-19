@@ -80,8 +80,6 @@ title: About
         <div id="t7"></div>
         <div id="t8"></div>
         <div id="t9"></div>
-    </div>
-    <div class="tints_and_shades">
         <div id="s1"></div>
         <div id="s2"></div>
         <div id="s3"></div>
