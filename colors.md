@@ -21,7 +21,7 @@ title: About
         box-sizing: border-box;
     }
     .hex {
-        grid-column: span 2;
+        grid-column: span 1;
     }
 </style>
 
