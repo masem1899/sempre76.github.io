@@ -23,6 +23,11 @@ title: About
 
 <div class="colors-page">
     <div class="colors-editor">
+        <div class="control hex">
+            <input maxlength="7" id="hex" placeholder="#000000" pattern="#?[0-9A-Fa-f]{1,6}">
+        </div>
+        <div></div>
+        <div></div>
         <div class="control">
             <input maxlength="3" id="rgb_r" placeholder="255" pattern="\d{1,3}">
         </div>
@@ -32,8 +37,14 @@ title: About
         <div class="control">
             <input maxlength="3" id="rgb_b" placeholder="255" pattern="\d{1,3}">
         </div>
-        <div class="control hex">
-            <input maxlength="7" id="hex" placeholder="#000000" pattern="#?[0-9A-Fa-f]{1,6}">
+        <div class="control">
+            <input maxlength="3" id="hsv_h" placeholder="255" pattern="\d{1,3}">
+        </div>
+        <div class="control">
+            <input maxlength="3" id="hsv_s" placeholder="255" pattern="\d{1,3}">
+        </div>
+        <div class="control">
+            <input maxlength="3" id="hsv_v" placeholder="255" pattern="\d{1,3}">
         </div>
     </div>
 </div>
@@ -45,7 +56,7 @@ title: About
         const log = document.getElementById('output');
         
         let _controls = {}
-        const control_ids = ['rgb_r', 'rgb_g', 'rgb_b', 'hex'];
+        const control_ids = ['rgb_r', 'rgb_g', 'rgb_b', 'hex', 'hsv_h', 'hsv_s', 'hsv_v'];
         control_ids.forEach((id) => {
             registerControl(id)
         });
@@ -78,9 +89,15 @@ title: About
             g = !g ? 0 : Math.max(0, Math.min(255, g));
             b = !b ? 0 : Math.max(0, Math.min(255, b));
             const hex = '#' + [r, g, b]
-                .map(v => toString(16).padStart(2, '0'))
+                .map(v => v.toString(16).padStart(2, '0'))
                 .join('');
             return hex.toUpperCase();
+        }
+
+        function hsv2rgb(h, s, v) {
+            h = !h ? 0 : h;
+            s = !s ? 0 : s / 100;
+            v = !v ? 0 : v / 100;
         }
     })();
 </script>
