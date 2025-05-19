@@ -12,6 +12,8 @@ title: About
         gap: 5px;
         width: 300px;
         padding: 15px;
+        border: 1px solid #fff;
+        border-radius: 3px;
     }
     .control {
         display: flex;
