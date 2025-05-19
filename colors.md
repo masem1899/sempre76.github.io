@@ -82,8 +82,10 @@ title: About
 
         function rgb_change(r, g, b) {
             const hex = rgb2hex(r, g, b);
+            const editor = document.getElementById('colors-editor');
+            editor.style.backgroundColor = hex;
             _controls['hex'].value = hex;
-            document.getElementById('colors-editor').style.backgroundColor = hex;
+            
         }
 
         function rgb2hex(r, g, b) {
