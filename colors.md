@@ -50,7 +50,6 @@ title: About
         });
         function registerControl(id) {
             const control = document.getElementById(id);
-            _controls[name] = control;
             control.addEventListener('keyup', keyListener);
         }
 
