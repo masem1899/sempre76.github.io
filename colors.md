@@ -37,12 +37,25 @@ title: About
 <script language="javascript">
     (function() {
         const log = document.getElementById('output');
-        const rgb_r = document.getElementById('rgb_r');
-        rgb_r.addEventListener('keydown', logKey);
+        
+        const control_ids = ['rgb_r', 'rgb_g', 'rgb_b'];
+        control_ids.foreach((id) => {
+            registerControl(id)
+        });
+        function registerControl(ids) {
+            const control = document.getElementById(id);
+            _controls[name] = control;
+            control.addEventListener('keyup', keyListener);
+        }
 
-        function logKey(e) {
-            console.log(e);
-            log.textContent += ` ${e.code}`;
+        function keyListener(e) {
+            switch(e.sourceElement.id) {
+                case 'rgb_r':
+                case 'rgb_g':
+                case 'rgb_b':
+                    console.log('event listener');
+            }
+
         }
     })();
 </script>
