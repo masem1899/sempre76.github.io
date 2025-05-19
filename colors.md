@@ -10,7 +10,7 @@ title: About
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto auto;
         gap: 10px;
-        width: 300px;
+        width: 200px;
     }
     .control {
         display: flex;
@@ -27,10 +27,10 @@ title: About
             <input maxlength="3" id="rgb_r" placeholder="255" pattern="\d{1,3}">
         </div>
         <div class="control">
-            <input maxlength="3" id="rgb_g" placeholder="255" pattern="\d{1,3}>
+            <input maxlength="3" id="rgb_g" placeholder="255" pattern="\d{1,3}">
         </div>
         <div class="control">
-            <input maxlength="3" id="rgb_b" placeholder="255" pattern="\d{1,3}>
+            <input maxlength="3" id="rgb_b" placeholder="255" pattern="\d{1,3}">
         </div>
         <div class="control hex">
             <input maxlength="7" id="hex" placeholder="#000000" pattern="#?[0-9A-Fa-f]{1,6}">
