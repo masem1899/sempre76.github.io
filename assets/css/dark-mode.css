@@ -71,6 +71,10 @@ body {
     margin: 0 auto;
 }
 
+.pysty-dev-brand-img {
+    height: 50px;
+}
+
 .code-container {
     position: relative;
     margin: 1rem 0;
