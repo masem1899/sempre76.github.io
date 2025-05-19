@@ -44,24 +44,43 @@ title: About
     (function() {
         const log = document.getElementById('output');
         
-        const control_ids = ['rgb_r', 'rgb_g', 'rgb_b'];
+        const _conrols = {}
+        const control_ids = ['rgb_r', 'rgb_g', 'rgb_b', 'hex'];
         control_ids.forEach((id) => {
             registerControl(id)
         });
 
         function registerControl(id) {
             const control = document.getElementById(id);
+            _constrols[id] = control;
             control.addEventListener('keyup', keyListener);
         }
 
         function keyListener(e) {
-            switch(e.srcElement.id) {
+            const id = e.srcElement.id;
+
+            switch(id) {
                 case 'rgb_r':
                 case 'rgb_g':
                 case 'rgb_b':
-                    console.log('event listener');
+                    rgb(_controls['rgb_r'].value, _controls['rgb_g'].value, _controls['rgb_b'].value);
+                    break;
             }
 
+        }
+
+        function rgb_change(r, g, b) {
+            _controls['hex'].value = reg2hex(r, g, b)
+        }
+
+        function rgb2hex(r, g, b) {
+            r = !r ? 0 : Math.max(0, Math.min(255, r));
+            g = !g ? 0 : Math.max(0, Math.min(255, g));
+            b = !b ? 0 : Math.max(0, Math.min(255, b));
+            const hex = '#' + [r, g, b]
+                .map(v => toString(16).padStart(2, '0'))
+                .join('');
+            return hey.toUpperCase();
         }
     })();
 </script>
