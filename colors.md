@@ -138,7 +138,7 @@ title: About
         }
 
         function setBgColor(id, color) {
-            const e = document.getElementById('ts8');
+            const e = document.getElementById(id);
             if(e) {
                 e.style.backgroundColor = color;
             }
