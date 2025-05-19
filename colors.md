@@ -80,7 +80,7 @@ title: About
             const hex = '#' + [r, g, b]
                 .map(v => toString(16).padStart(2, '0'))
                 .join('');
-            return hey.toUpperCase();
+            return hex.toUpperCase();
         }
     })();
 </script>
