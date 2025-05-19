@@ -116,7 +116,7 @@ title: About
             r = !r ? 0 : Math.max(0, Math.min(255, r));
             g = !g ? 0 : Math.max(0, Math.min(255, g));
             b = !b ? 0 : Math.max(0, Math.min(255, b));
-            
+
             const hex = rgb2hex(r, g, b);
             const editor = document.getElementById('colors-editor');
             editor.style.backgroundColor = hex;
@@ -161,18 +161,18 @@ title: About
         function tintColor(r, g, b, pct) {
             const p = pct / 100;
             return rgb2hex(
-                r + (255 - r) * p,
-                g + (255 - g) * p,
-                b + (255 - b) * p
+                Math.round(r + (255 - r) * p),
+                Math.round(g + (255 - g) * p),
+                Math.round(b + (255 - b) * p)
             );
         }
 
         function shadeColor(r, g, b, pct) {
             const p = pct / 100;
             return rgb2hex(
-                r * (1 - p),
-                g * (1 - p),
-                b * (1 - p)
+                Math.round(r * (1 - p)),
+                Math.round(g * (1 - p)),
+                Math.round(b * (1 - p))
             );
         }
     })();
