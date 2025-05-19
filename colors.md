@@ -22,7 +22,7 @@ title: About
 </style>
 
 <div class="colors-page">
-    <div class="colors-editor">
+    <div class="colors-editor" id="colors-editor">
         <div class="control hex">
             <input maxlength="7" id="hex" placeholder="#000000" pattern="#?[0-9A-Fa-f]{1,6}">
         </div>
