@@ -1,8 +1,8 @@
 ---
 layout: default
-title: PySty
+title: PySty - Python Styling Library
 ---
-## PySty - Python Styling Library
+# PySty - Python Styling Library
 Enrich your Python Component Library with styles injected via decorators.
 
 #### Easy to use:

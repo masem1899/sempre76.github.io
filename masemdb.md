@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: masemdb - Minimalist Python Database library
 ---
 # masemdb - Minimalist Python Database library
 
