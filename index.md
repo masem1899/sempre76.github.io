@@ -3,7 +3,7 @@ layout: default
 title: MASEM
 ---
 
-Welcome!
+# Welcome!
 
 Feel free to connect:
 - [GitHub](https://github.com/sempre76)
