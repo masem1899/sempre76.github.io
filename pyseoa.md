@@ -68,5 +68,5 @@ seo-analyze -h
 - Logs for any failed URLs in `seo_errors.log`
 
 ## Links
-[PyPi](https://pypi.org/project/pyseoa/0.1.0/)
-[GitHub Repository](https://github.com/sempre76/pyseoa)
+- [PyPi](https://pypi.org/project/pyseoa/0.1.0/)
+- [GitHub Repository](https://github.com/sempre76/pyseoa)
