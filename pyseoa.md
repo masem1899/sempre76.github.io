@@ -30,3 +30,39 @@ title: pyseoa - Python SEO library and CLI tool
 ```bash
 pip install pyseoa
 ```
+
+Or form source:
+```bash
+git clone https://github.com/sempre76/pyseoa.git
+cd pyseoa
+pip install -e
+```
+
+---
+
+## 🧪 Usage
+
+### Analyze a single URL
+```
+seo-analyze https://example.com
+```
+
+### Analyze multiple files from a file
+
+```bash
+seo-analyze -f urls.txt
+```
+
+### Full CLI Options
+
+```bash
+seo-analyze -h
+```
+
+---
+
+## 📤 Output
+
+- JSON report(s) in a folder (default: `seo_reports/`)
+- Combined CSV summary (default: `seo_summary.csv`)
+- Logs for any failed URLs in `seo_errors.log`
