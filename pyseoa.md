@@ -66,3 +66,7 @@ seo-analyze -h
 - JSON report(s) in a folder (default: `seo_reports/`)
 - Combined CSV summary (default: `seo_summary.csv`)
 - Logs for any failed URLs in `seo_errors.log`
+
+## Links
+[PyPi](https://pypi.org/project/pyseoa/0.1.0/)
+[GitHub Repository](https://github.com/sempre76/pyseoa)
