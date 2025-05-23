@@ -71,5 +71,3 @@ seo-analyze -h
 - [PyPi](https://pypi.org/project/pyseoa/0.1.0/)
 - [GitHub Repository](https://github.com/sempre76/pyseoa)
 
-<a title="Web Analytics" href="https://clicky.com/101485354"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
-<script async data-id="101485354" src="//static.getclicky.com/js"></script>
