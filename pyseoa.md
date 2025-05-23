@@ -67,7 +67,10 @@ seo-analyze -h
 - Combined CSV summary (default: `seo_summary.csv`)
 - Logs for any failed URLs in `seo_errors.log`
 
-## Links
+## 🔗 Links
 - [PyPi](https://pypi.org/project/pyseoa/0.1.0/)
 - [GitHub Repository](https://github.com/sempre76/pyseoa)
 
+[![PyPI version](https://img.shields.io/pypi/v/pyseoa-cli.svg)](https://pypi.org/project/pyseoa-cli/)
+[![Python versions](https://img.shields.io/pypi/pyversions/pyseoa-cli.svg)](https://pypi.org/project/pyseoa-cli/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
