@@ -120,3 +120,7 @@ pre {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.footer {
+    padding: 20px;
+}
