@@ -30,7 +30,20 @@
 
             <!-- Side panel BEGIN-->
             {% if page.show_side_panel %}
-                {% include side-panel.html %}
+            <aside class="side-panel">
+                <section>
+                    <h4>Support for</h4>
+                    {% for item in page.side_panel.support_for %}
+                        {{ item | raw }}
+                    {% endfor %}
+                </section>
+                <section>
+                    <h4>Powered by</h4>
+                    {% for item in page.side_panel.powered_by %}
+                        {{ item | raw }}
+                    {% endfor %}
+                </section>
+            </aside>
             {% endif %}
             {% include side-panel.html %}
             <!-- Side panel END-->
