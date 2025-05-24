@@ -27,37 +27,37 @@ title: pyseoa - Python SEO library and CLI tool
 
 ## 📦 Installation
 
-```bash
+{% highlight python %}
 pip install pyseoa
-```
+{% endhighlight %}
 
 Or form source:
-```bash
+{% highlight bash %}
 git clone https://github.com/sempre76/pyseoa.git
 cd pyseoa
 pip install -e
-```
+{% endhighlight %}
 
 ---
 
 ## 🧪 Usage
 
 ### Analyze a single URL
-```
+{% highlight bash %}
 seo-analyze https://example.com
-```
+{% endhighlight %}
 
 ### Analyze multiple files from a file
 
-```bash
+{% highlight bash %}
 seo-analyze -f urls.txt
-```
+{% endhighlight %}
 
 ### Full CLI Options
 
-```bash
+{% highlight bash %}
 seo-analyze -h
-```
+{% endhighlight %}
 
 ---
 

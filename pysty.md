@@ -6,15 +6,10 @@ title: PySty - Python Styling Library
 Enrich your Python Component Library with styles injected via decorators.
 
 #### Easy to use:
-<div class="code-container">
-    <pre>
-        <code class="language-python">
+{% highlight python %}
 def main():
-    print('hallo')
-        </code>
-    </pre>
-    <button class="copy-btn" onclick="copyCode(this)">📋 Copy</button>
-</div>
+    print("hallo")
+{% endhighlight %}
 
 #### Features:
 - Easy to integrate
