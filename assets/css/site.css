@@ -152,3 +152,11 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.social-links li a {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    transition: color 0.2s ease;
+}
