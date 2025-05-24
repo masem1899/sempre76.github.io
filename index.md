@@ -11,9 +11,14 @@ show_side_panel: false
   }
 </script>
 
-# Welcome!
-
-Feel free to connect:
-- [GitHub](https://github.com/sempre76)
-- [LinkedIn](https://www.linkedin.com/in/mario-semper-94475528/)
-- [Xing](https://www.xing.com/profile/Mario_Semper/)
+# News
+<div class="blog-list">
+    <ul>
+    {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <small>({{ post.date | date: "%Y-%m-%d}})</small>
+        </li>
+    {% endfor %}
+    </ul>
+</div>
