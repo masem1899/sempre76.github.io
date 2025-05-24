@@ -53,9 +53,15 @@
 }
 
 /* light theme code higlighting */
-
+[data-theme="light"] .highlight pre, code {
+    background-color: #f6f8fa;
+    color: #24292e;
+}
 /* dark theme code higlighting */
-
+[data-theme="dark"] .highlight pre, code {
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
 
 
 body {

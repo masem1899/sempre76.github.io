@@ -27,7 +27,7 @@ title: pyseoa - Python SEO library and CLI tool
 
 ## 📦 Installation
 
-{% highlight python %}
+{% highlight bash %}
 pip install pyseoa
 {% endhighlight %}
 
