@@ -3,9 +3,9 @@ layout: default
 title: 'pyseoa - Python SEO library and CLI tool'
 show_side_panel: true
 side_panel:
-    support_for: 
-      - '<img src="https://img.shields.io/badge/python-3.7+-blue" alt="Python 3.7+">',
-      - '<img src="https://img.shields.io/badge/python-3.7+-blue" alt="Python 3.11">',
+  support_for: 
+    - '<img src="https://img.shields.io/badge/python-3.7+-blue" alt="Python 3.7+">'
+    - '<img src="https://img.shields.io/badge/python-3.7+-blue" alt="Python 3.11">'
     
         
         
