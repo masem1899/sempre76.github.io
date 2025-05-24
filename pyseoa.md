@@ -80,7 +80,7 @@ analyzer.run_full_analysis()
 
 # Export the analysis to a json file
 analyzer.export_to_json('report.json')
-{% end highlight %}
+{% endhighlight %}
 
 
 
