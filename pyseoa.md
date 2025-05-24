@@ -3,15 +3,31 @@ layout: default
 title: 'pyseoa - Python SEO library and CLI tool'
 show_side_panel: true
 side_panel:
+  projects_links:
+    - title: 'PyPi project'
+      badge: 'PyPi-project-green'
+      link: 'https://pypi.org/project/pyseoa/'
+    - title: 'GitHub repository'
+      badge: 'GitHub-repository-green'
+      link: 'https://github.com/sempre76/pyseoa'
   support_for:
-    - '<img src="https://img.shields.io/badge/python-3.7+-blue" alt="Python 3.7+">'
-    - '<img src="https://img.shields.io/badge/python-3.11-blue" alt="Python 3.11">'
+    - title: 'Python'
+      badge: 'python-3.7+-blue'
+      link:  'https://www.python.org/'
+    - title: 'Python'
+      badge: 'python-3.11-blue'
+      link: 'https://www.python.org/'
   powered_by:
-    - '<img src="https://img.shields.io/badge/BeautifulSoup4-pypi-6d9cbe" alt="beautifulsoap4">'
-    - '<img src="https://img.shields.io/badge/Requests-GitHub-3776ab.svg" alt="requests">'
-    - '<img src="https://img.shields.io/badge/tqdm-GitHub-4b8bbe.svg" alt="tqdm">'
-
-
+    - title: 'BeautifulSoap4'
+      badge: 'BeautifulSoup4-pypi-6d9cbe'
+      link: 'https://www.crummy.com/software/BeautifulSoup/'
+    - title: 'Requests'
+      badge: 'Requests-Homepage-3776ab'
+      link: 'https://requests.readthedocs.io/'
+    - title: 'tqdm'
+      badge: 'tqdm-GitHub-4b8bbe'
+      link: 'https://github.com/tqdm/tqdm'
+      
 ---
 # pyseoa
 
@@ -77,21 +93,3 @@ seo-analyze -h
 - JSON report(s) in a folder (default: `seo_reports/`)
 - Combined CSV summary (default: `seo_summary.csv`)
 - Logs for any failed URLs in `seo_errors.log`
-
-## 🔗 Links
-
-- [PyPi](https://pypi.org/project/pyseoa/0.1.0/)
-- [GitHub Repository](https://github.com/sempre76/pyseoa)
-
-[![PyPI version](https://img.shields.io/pypi/v/pyseoa.svg)](https://pypi.org/project/pyseoa/)
-[![Python versions](https://img.shields.io/pypi/pyversions/pyseoa.svg)](https://pypi.org/project/pyseoa/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Downloads](https://static.pepy.tech/badge/pyseoa)](https://pepy.tech/projects/pyseoa)
-
-## 🔌 Powered by
-
-[![Python 3](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
-[![BeautifulSoup4](https://img.shields.io/badge/BeautifulSoup4-pypi-6d9cbe.svg)](https://pypi.org/project/beautifulsoup4/)
-[![Requests](https://img.shields.io/badge/Requests-GitHub-3776ab.svg)](https://github.com/psf/requests)
-[![tqdm](https://img.shields.io/badge/tqdm-GitHub-4b8bbe.svg)](https://github.com/tqdm/tqdm)
-
