@@ -2,7 +2,9 @@
     <section>
         <h4>Support for</h4>
         {% for item in page.side_panel.support_for %}
-            {{ item | raw }}
+            <a href="{{ item.link }}" rel="noopener noreferrer" target="_blank" aria-label="{{ item.title }}">
+                <img src="{{site.badge_root}}{{item.badge}}" alt="item.title">
+            </a>
         {% endfor %}
     </section>
     <section>

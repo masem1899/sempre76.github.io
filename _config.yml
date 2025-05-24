@@ -6,6 +6,8 @@ plugins:
   - jekyll-seo-tag
 show_excerpts: true
 
+badge_root: 'https://img.shields.io/badge/'
+
 active_pages:
   - title: Home
     url: /
