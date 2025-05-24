@@ -3,21 +3,21 @@ layout: default
 title: 'pyseoa - Python SEO library and CLI tool'
 show_side_panel: true
 side_panel:
-  projects_links:
+  project_section:
     - title: 'PyPi project'
       badge: 'PyPi-project-green'
       link: 'https://pypi.org/project/pyseoa/'
     - title: 'GitHub repository'
       badge: 'GitHub-repository-green'
       link: 'https://github.com/sempre76/pyseoa'
-  support_for:
+  support_section:
     - title: 'Python'
       badge: 'python-3.7+-blue'
       link:  'https://www.python.org/'
     - title: 'Python'
       badge: 'python-3.11-blue'
       link: 'https://www.python.org/'
-  powered_by:
+  powered_section:
     - title: 'BeautifulSoap4'
       badge: 'BeautifulSoup4-pypi-6d9cbe'
       link: 'https://www.crummy.com/software/BeautifulSoup/'
