@@ -119,6 +119,10 @@ body {
     margin-top: 0.5rem;
 }
 
+.side-panel a {
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     .layout {
         flex-direction: column;
