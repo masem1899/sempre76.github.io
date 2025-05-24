@@ -3,6 +3,13 @@ layout: default
 title: PySty 
 ---
 
+<script>
+  const showSidePanel = true; // set this based on the page
+  if (!showSidePanel) {
+    document.querySelector('.side-panel').style.display = 'none';
+  }
+</script>
+
 # Welcome!
 
 Feel free to connect:
