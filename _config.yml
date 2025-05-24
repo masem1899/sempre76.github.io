@@ -11,6 +11,8 @@ active_pages:
     url: /
     active: true
   - title: PySty
+    url: /pysty.html
+    active: true
 
 # Custom CSS
 defaults:
