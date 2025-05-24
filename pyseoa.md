@@ -27,15 +27,14 @@ side_panel:
     - title: 'tqdm'
       badge: 'tqdm-GitHub-4b8bbe'
       link: 'https://github.com/tqdm/tqdm'
-      
 ---
-# pyseoa
+<p class="spaced"># pyseoa</p>
 
 🔎 **pyseo** is a fast, extensible Python library for analyzing SEO health across one or more URLs, with CLI support too. It performs audits for metadata, accessibility, structered data, performance scores, and more.
 
 
 
-## 🚀 Features
+<p class="spaced">## 🚀 Features</p>
 
 - Analyze single or batch URLs
 - Title, meta description, headers, alt tags
@@ -75,7 +74,8 @@ from pyseoa import SEOAnalyzer
 analyzer = SEOAnalyzer('https://example.com')
 
 # Start full analyzing
-# NOTE: informations via google pageSpeed insights API are only collected if you provide a API key in the constructor.
+# NOTE: informations via google pageSpeed insights API are only collected 
+# if you provide a API key in the constructor.
 analyzer.run_full_analysis()
 
 # Export the analysis to a json file
