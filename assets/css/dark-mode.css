@@ -40,6 +40,10 @@
     color: var(--text-brown);
 }
 
+[data-theme="dark"] a:hover {
+    color: #ddd;
+}
+
 [data-theme="dark"] .container h1,
 [data-theme="dark"] .container h2,
 [data-theme="dark"] .container h3 {
