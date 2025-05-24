@@ -1,5 +1,7 @@
 title: PySty Project Space
 theme: minima
+highlighter: rouge
+markdown: kramdown
 plugins:
   - jekyll-seo-tag
 show_excerpts: true
