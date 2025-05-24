@@ -14,11 +14,22 @@
                 {% endif %}
             {% endfor %}
             -->
+            <!--
             <a class="page-link" href="/pysty.html">PySty</a>
             <a class="page-link" href="/pyseoa.html">pyseoa</a>
             <a class="page-link" href="/masemdb.html">masemdb</a>
             <a class="page-link" href="/colors.html">Color Picker</a>
             <a class="page-link" href="/about.html">About</a>
+            -->
+
+            <ul>
+                {% for page in site.active_pages %}
+                    {% if page.active %}
+                        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
             <!-- Dark Mode Toggle Button -->
             <button id="darkModeToggle" onclick="toggleTheme()"></button>
         </nav>

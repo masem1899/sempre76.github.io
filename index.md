@@ -1,6 +1,7 @@
 ---
 layout: default
-title: PySty 
+title: PySty
+show_side_panel: false
 ---
 
 <script>

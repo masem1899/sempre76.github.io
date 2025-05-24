@@ -1,6 +1,7 @@
 ---
 layout: default
 title: PySty - Python Styling Library
+show_side_panel: true
 ---
 # PySty - Python Styling Library
 Enrich your Python Component Library with styles injected via decorators.

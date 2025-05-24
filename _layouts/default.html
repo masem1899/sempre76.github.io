@@ -29,11 +29,13 @@
             </main>
 
             <!-- Side panel BEGIN-->
-            <aside class="side-panel">
-                <section>
-                    <h3>Support for</h3>
-                </section>
-            </aside>
+            {% if page.show_side_panel %}
+                <aside class="side-panel">
+                    <section>
+                        <h3>Support for</h3>
+                    </section>
+                </aside>
+            {% endif %}
             <!-- Side panel END-->
         </div>
 

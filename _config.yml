@@ -5,10 +5,12 @@ markdown: kramdown
 plugins:
   - jekyll-seo-tag
 show_excerpts: true
-#header_pages:
-#  - index.md
-#  - pysty.md
-#  - about.md
+
+active_pages:
+  - title: Home
+    url: /
+    active: true
+  - title: PySty
 
 # Custom CSS
 defaults:

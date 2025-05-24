@@ -1,6 +1,7 @@
 ---
 layout: default
 title: pyseoa - Python SEO library and CLI tool
+show_side_panel: true
 ---
 # pyseoa
 
