@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+show_side_panel: false
 ---
 # About me
 

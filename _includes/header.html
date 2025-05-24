@@ -22,13 +22,11 @@
             <a class="page-link" href="/about.html">About</a>
             -->
 
-            <ul>
-                {% for page in site.active_pages %}
-                    {% if page.active %}
-                        <li><a href="{{ page.url }}" class="page-link">{{ page.title }}</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+            {% for page in site.active_pages %}
+                {% if page.active %}
+                    <a href="{{ page.url }}" class="page-link">{{ page.title }}</a>
+                {% endif %}
+            {% endfor %}
 
             <!-- Dark Mode Toggle Button -->
             <button id="darkModeToggle" onclick="toggleTheme()"></button>

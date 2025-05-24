@@ -13,6 +13,15 @@ active_pages:
   - title: PySty
     url: /pysty.html
     active: true
+  - title: PySeoa
+    url: /pyseoa.html
+    active: true
+  - title: masemdb
+    url: /masemdb.md
+    active: false
+  - title: About
+    url: /about.html
+    active: true
 
 # Custom CSS
 defaults:
