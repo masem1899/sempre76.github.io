@@ -5,5 +5,8 @@ date: 2025-05-22
 
 🎉 Version 0.1.0 of `pyseoa` is now live!
 
-[Project Page](/pyseoa/)
-[Repository](https://github.com/sempre76/pyseoa)
+#### Go to:
+<ul>
+    <li>[Project Page](/pyseoa/)</li>
+    <li>[Repository](https://github.com/sempre76/pyseoa)</li>
+</ul>
