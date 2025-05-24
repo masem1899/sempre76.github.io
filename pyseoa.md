@@ -27,14 +27,15 @@ side_panel:
     - title: 'tqdm'
       badge: 'tqdm-GitHub-4b8bbe'
       link: 'https://github.com/tqdm/tqdm'
+      
 ---
-<p class="spaced"># pyseoa</p>
+# pyseoa
 
 🔎 **pyseo** is a fast, extensible Python library for analyzing SEO health across one or more URLs, with CLI support too. It performs audits for metadata, accessibility, structered data, performance scores, and more.
 
 
 
-<p class="spaced">## 🚀 Features</p>
+## 🚀 Features
 
 - Analyze single or batch URLs
 - Title, meta description, headers, alt tags

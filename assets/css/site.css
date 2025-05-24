@@ -47,18 +47,20 @@
 [data-theme="dark"] .main-content h1,
 [data-theme="dark"] .main-content h2,
 [data-theme="dark"] .main-content h3 {
-    color: var(--text-brown)
+    color: var(--text-brown);
+    margin-top: 2rem;
 }
 
 [data-theme="dark"] .main-content h3,
 [data-theme="dark"] .main-content h4,
 [data-theme="dark"] .main-content h5 {
-    color: var(--text-yellow)
+    color: var(--text-yellow);
+    margin-top: 2rem;
 }
 
 /* light theme code higlighting */
 [data-theme="light"] .highlight pre, code {
-    background-color: #f6f8fa;
+    /*background-color: #f6f8fa;*/
     color: #24292e;
 }
 /* dark theme code higlighting */
@@ -191,8 +193,4 @@ body {
     align-items: center;
     gap: 0.4em;
     transition: color 0.2s ease;
-}
-
-.spaced p {
-    margin-top: 2rem;
 }
