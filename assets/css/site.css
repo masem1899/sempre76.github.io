@@ -59,14 +59,29 @@
 }
 
 /* light theme code higlighting */
-[data-theme="light"] .highlight pre, code {
-    /*background-color: #f6f8fa;*/
+[data-theme="light"] .highlight pre {
+    background-color: #f6f8fa;
     color: #24292e;
 }
+[data-theme="light"] .highlight code {
+    background-color: transparent;
+    color: inherit;
+}
+
 /* dark theme code higlighting */
-[data-theme="dark"] .highlight pre, code {
+[data-theme="dark"] .highlight pre {
     background-color: #0d1117;
     color: #c9d1d9;
+}
+[data-theme="dark"] .highlight pre, code {
+    background-color: transparent;
+    color: inherit;
+}
+[data-theme="dark"] .highlight code {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #c9d1d9;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
 }
 
 
