@@ -4,7 +4,7 @@ title: PySty
 ---
 
 <script>
-  const showSidePanel = true; // set this based on the page
+  const showSidePanel = false; // set this based on the page
   if (!showSidePanel) {
     document.querySelector('.side-panel').style.display = 'none';
   }
