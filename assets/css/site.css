@@ -81,20 +81,27 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
+    flex-wrap: wrap;
 }
 
 .main-content {
-    flex: 1;
+    flex: 1 1 0;
     min-width: 0;
 }
 
 .side-panel {
     width: 250px;
     flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    .side-panel {
+        width: 100%;
+    }
 }
 
 .pysty-dev-img {
