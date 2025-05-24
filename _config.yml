@@ -12,7 +12,7 @@ active_pages:
     active: true
   - title: PySty
     url: /pysty.html
-    active: true
+    active: false
   - title: PySeoa
     url: /pyseoa.html
     active: true
