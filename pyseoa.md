@@ -67,7 +67,7 @@ pip install -e
 
 ---
 
-## 🧪 Usage
+## 🧪 CLI Usage
 
 ### Analyze a single URL
 {% highlight bash %}
