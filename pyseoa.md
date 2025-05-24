@@ -9,7 +9,7 @@ side_panel:
   powered_by:
     - '<img src="https://img.shields.io/badge/BeautifulSoup4-pypi-6d9cbe" alt="beautifulsoap4">'
     - '<img src="https://img.shields.io/badge/Requests-GitHub-3776ab.svg" alt="requests">'
-    - '<img src="https://img.shields.io/badge/tqdm-GitHub-4b8bbe.svg" alt="tqdm">
+    - '<img src="https://img.shields.io/badge/tqdm-GitHub-4b8bbe.svg" alt="tqdm">'
 
 
 ---
