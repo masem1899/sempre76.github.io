@@ -68,11 +68,19 @@ seo-analyze -h
 - Logs for any failed URLs in `seo_errors.log`
 
 ## 🔗 Links
+
 - [PyPi](https://pypi.org/project/pyseoa/0.1.0/)
 - [GitHub Repository](https://github.com/sempre76/pyseoa)
 
 [![PyPI version](https://img.shields.io/pypi/v/pyseoa.svg)](https://pypi.org/project/pyseoa/)
 [![Python versions](https://img.shields.io/pypi/pyversions/pyseoa.svg)](https://pypi.org/project/pyseoa/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![Downloads](https://static.pepy.tech/badge/pyseoa)
+[![Downloads](https://static.pepy.tech/badge/pyseoa)](https://pepy.tech/projects/pyseoa)
+
+## 🔌 Powered by
+
+[![Python 3](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![BeautifulSoup4](https://img.shields.io/badge/BeautifulSoup4-pypi-6d9cbe.svg)](https://pypi.org/project/beautifulsoup4/)
+[![Requests](https://img.shields.io/badge/Requests-GitHub-3776ab.svg)](https://github.com/psf/requests)
+[![tqdm](https://img.shields.io/badge/tqdm-GitHub-4b8bbe.svg)](https://github.com/tqdm/tqdm)
 
