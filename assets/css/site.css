@@ -133,3 +133,12 @@ body {
     text-align: center;
 }
 
+/* Social footer */
+/* Common base styles */
+.social-footer {
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    border-top: 3px solid;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
