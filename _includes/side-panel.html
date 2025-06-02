@@ -23,4 +23,10 @@
         </a>
         {% endfor %}
     </section>
+    <section>
+        {% if page.donation_section %}
+        <h4>Donate</h4>
+        {{ page.donation_section }}
+        {% endif %}
+    </section>
 </aside>
