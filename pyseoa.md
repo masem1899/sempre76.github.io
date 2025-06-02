@@ -34,7 +34,16 @@ side_panel:
                        <input type="hidden" name="currency_code" value="EUR" />
                        <input type="image" src="https://www.paypalobjects.com/en_US/AT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
                        <img alt="" border="0" src="https://www.paypal.com/en_AT/i/scr/pixel.gif" width="1" height="1" />
-                    </form>'
+                    </form>
+                    <script async
+                      src="https://js.stripe.com/v3/buy-button.js">
+                    </script>
+
+                    <stripe-buy-button
+                      buy-button-id="buy_btn_1RVPvPP0wjowDHHC1FKokeM1"
+                      publishable-key="pk_test_51RVPfsP0wjowDHHCYXoclmSsnGrIzBruNHUTkLnw035DA5aW33ibofYyNmemu5yWogfqAHyK6Q8Yd8Y9vdPF7lIp00nNDKSzXs"
+                    >
+                    </stripe-buy-button>'
 
       
 ---
