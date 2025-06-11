@@ -4,12 +4,15 @@ title: 'pyseoa - Python SEO library and CLI tool'
 show_side_panel: true
 side_panel:
   project_section:
-    - title: 'PyPi project'
+    - title: 'PyPi project pyseoa'
       badge: 'PyPi-project-green'
       link: 'https://pypi.org/project/pyseoa/'
-    - title: 'GitHub repository'
+    - title: 'pyseoa GitHub repository'
       badge: 'GitHub-repository-green'
       link: 'https://github.com/sempre76/pyseoa'
+    - title: 'PyPi pyseoa downloads by pepy.tech'
+      link: 'https://pepy.tech/projects/pyseoa'
+      img: '<img src="https://static.pepy.tech/badge/pyseoa" alt="PyPI Downloads">'
   support_section:
     - title: 'Python'
       badge: 'python-3.7+-blue'
