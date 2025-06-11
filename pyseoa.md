@@ -3,40 +3,49 @@ layout: default
 title: 'pyseoa - Python SEO library and CLI tool'
 show_side_panel: true
 side_panel:
-  project_section:
-    - title: 'PyPi project pyseoa'
-      badge: 'PyPi-project-green'
-      link: 'https://pypi.org/project/pyseoa/'
-    - title: 'pyseoa GitHub repository'
-      badge: 'GitHub-repository-green'
-      link: 'https://github.com/sempre76/pyseoa'
-    - title: 'PyPi pyseoa downloads by pepy.tech'
-      link: 'https://pepy.tech/projects/pyseoa'
-      img: '<img src="https://static.pepy.tech/badge/pyseoa" alt="PyPI Downloads">'
-  docker_section:
-    - title: Docker pulls
-      link: 'https://hub.docker.com/repository/docker/masemcontact/pyseoa/general'
-      img: '<img src="https://img.shields.io/docker/pulls/masemcontact/pyseoa?style=flat-square" alt="docker image pulls>'
-    - title: Docker image version (latest)
-      link: 'https://hub.docker.com/repository/docker/masemcontact/pyseoa/general'
-      img: '<img src="https://img.shields.io/docker/v/masemcontact/pyseoa/latest?style=flat-square" alt="docker image version (latest)">'
-  support_section:
-    - title: 'Python'
-      badge: 'python-3.7+-blue'
-      link:  'https://www.python.org/'
-    - title: 'Python'
-      badge: 'python-3.11-blue'
-      link: 'https://www.python.org/'
-  powered_section:
-    - title: 'BeautifulSoap4'
-      badge: 'BeautifulSoup4-pypi-6d9cbe'
-      link: 'https://www.crummy.com/software/BeautifulSoup/'
-    - title: 'Requests'
-      badge: 'Requests-Homepage-3776ab'
-      link: 'https://requests.readthedocs.io/'
-    - title: 'tqdm'
-      badge: 'tqdm-GitHub-4b8bbe'
-      link: 'https://github.com/tqdm/tqdm'
+  sections:
+    - section:
+      title: Site
+      items:
+        - title: 'PyPi project pyseoa'
+          badge: 'PyPi-project-green'
+          link: 'https://pypi.org/project/pyseoa/'
+        - title: 'pyseoa GitHub repository'
+          badge: 'GitHub-repository-green'
+          link: 'https://github.com/sempre76/pyseoa'
+        - title: 'PyPi pyseoa downloads by pepy.tech'
+          link: 'https://pepy.tech/projects/pyseoa'
+          img: '<img src="https://static.pepy.tech/badge/pyseoa" alt="PyPI Downloads">'
+    - section:
+      title: "Docker 🐳"
+      items:
+        - title: Docker pulls
+          link: 'https://hub.docker.com/repository/docker/masemcontact/pyseoa/general'
+          img: '<img src="https://img.shields.io/docker/pulls/masemcontact/pyseoa?style=flat-square" alt="docker image pulls>'
+        - title: Docker image version (latest)
+          link: 'https://hub.docker.com/repository/docker/masemcontact/pyseoa/general'
+          img: '<img src="https://img.shields.io/docker/v/masemcontact/pyseoa/latest?style=flat-square" alt="docker image version (latest)">'
+    - section:
+      title: "Support"
+      items:
+        - title: 'Python'
+          badge: 'python-3.7+-blue'
+          link:  'https://www.python.org/'
+        - title: 'Python'
+          badge: 'python-3.11-blue'
+          link: 'https://www.python.org/'
+    - section:
+      title: "Powered by":
+      items:
+        - title: 'BeautifulSoap4'
+          badge: 'BeautifulSoup4-pypi-6d9cbe'
+          link: 'https://www.crummy.com/software/BeautifulSoup/'
+        - title: 'Requests'
+          badge: 'Requests-Homepage-3776ab'
+          link: 'https://requests.readthedocs.io/'
+        - title: 'tqdm'
+          badge: 'tqdm-GitHub-4b8bbe'
+          link: 'https://github.com/tqdm/tqdm'
 
       
 ---
