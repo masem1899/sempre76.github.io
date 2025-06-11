@@ -14,9 +14,12 @@ side_panel:
       link: 'https://pepy.tech/projects/pyseoa'
       img: '<img src="https://static.pepy.tech/badge/pyseoa" alt="PyPI Downloads">'
   docker_section:
-    - title: Docker
+    - title: Docker pulls
       link: 'https://hub.docker.com/repository/docker/masemcontact/pyseoa/general'
-      img: '<img src="https://img.shields.io/docker/pulls/masemcontact/pyseoa?style=flat-square" alt="docker image downloads>'
+      img: '<img src="https://img.shields.io/docker/pulls/masemcontact/pyseoa?style=flat-square" alt="docker image pulls>'
+    - title: Docker image version (latest)
+      link: 'https://hub.docker.com/repository/docker/masemcontact/pyseoa/general'
+      img: '<img src="https://img.shields.io/docker/v/masemcontact/pyseoa/latest?style=flat-square" alt="docker image version (latest)">'
   support_section:
     - title: 'Python'
       badge: 'python-3.7+-blue'

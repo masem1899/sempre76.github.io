@@ -9,7 +9,7 @@
             <a href="{{ item.link }}" rel="noopener noreferrer" target="_blank" aria-label="{{ item.title }}">
                 {% if item.badge %}
                     <img src="{{site.badge_root}}{{item.badge}}" alt="item.title">
-                {% else }
+                {% else %}
                     {{ item.img }}
                 {% endif %}
             </a>
@@ -17,7 +17,7 @@
     </section>
     <section>
         <h4>Docker 🐳</h4>
-        {% for item in page.side_panel.project_section %}
+        {% for item in page.side_panel.docker_section %}
             <a href="{{ item.link }}" rel="noopener noreferrer" target="_blank" aria-label="{{ item.title }}">
                 {% if item.img %}
                     {{ item.img }}
