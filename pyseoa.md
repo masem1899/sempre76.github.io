@@ -13,6 +13,10 @@ side_panel:
     - title: 'PyPi pyseoa downloads by pepy.tech'
       link: 'https://pepy.tech/projects/pyseoa'
       img: '<img src="https://static.pepy.tech/badge/pyseoa" alt="PyPI Downloads">'
+  docker_section:
+    - title: Docker
+      link: 'https://hub.docker.com/repository/docker/masemcontact/pyseoa/general'
+      img: '<img src="https://img.shields.io/docker/pulls/masemcontact/pyseoa?style=flat-square" alt="docker image downloads>'
   support_section:
     - title: 'Python'
       badge: 'python-3.7+-blue'

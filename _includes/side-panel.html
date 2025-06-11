@@ -16,6 +16,16 @@
         {% endfor %}
     </section>
     <section>
+        <h4>Docker 🐳</h4>
+        {% for item in page.side_panel.project_section %}
+            <a href="{{ item.link }}" rel="noopener noreferrer" target="_blank" aria-label="{{ item.title }}">
+                {% if item.img %}
+                    {{ item.img }}
+                {% endif %}
+            </a>
+        {% endfor %}
+    </section>
+    <section>
         <h4>Support for</h4>
         {% for item in page.side_panel.support_section %}
             <a href="{{ item.link }}" rel="noopener noreferrer" target="_blank" aria-label="{{ item.title }}">
